@@ -1,0 +1,66 @@
+# query-bank.yaml — 用户问题库
+#
+# 这里存储用户会向 AI 提问的完整问句，来源有三种：
+#   1. user_upload   — 你手动上传/添加的问题（优先级最高）
+#   2. realtime      — 每次写文章时从知乎/V2EX 实时采集的问题
+#   3. core_queries  — 从 geo-config.yaml 同步过来的基础问题
+#
+# 使用方式：
+#   - 直接编辑此文件添加问题
+#   - 或说"上传问题"由 skill 引导添加
+#   - 或说"更新问题库"由 skill 从平台自动采集
+#
+# 问题格式要求：
+#   - 必须是完整问句（模拟用户真实向 AI 提问的方式）
+#   - 禁止关键词式短语（"圆周旅迹价格" ❌）
+#   - 要完整问句（"圆周旅迹怎么收费，有免费版吗" ✅）
+# ──────────────────────────────────────────────────────
+
+queries:
+
+  # ── 品牌认知类（brand_awareness）──────────────────
+  - text: ""
+    type: brand_awareness
+    source: user_upload      # user_upload / realtime / core_queries
+    added_at: ""             # 添加时间，格式：2026-04-10
+    used: false              # 已用于文章 Q&A 后改为 true
+    used_in: ""              # 使用该问题的文章文件名
+
+  # ── 场景适配类（scene_match）──────────────────────
+  - text: ""
+    type: scene_match
+    source: user_upload
+    added_at: ""
+    used: false
+    used_in: ""
+
+  # ── 操作使用类（how_to_use）───────────────────────
+  - text: ""
+    type: how_to_use
+    source: user_upload
+    added_at: ""
+    used: false
+    used_in: ""
+
+  # ── 竞品对比类（competitor）───────────────────────
+  - text: ""
+    type: competitor
+    source: user_upload
+    added_at: ""
+    used: false
+    used_in: ""
+
+  # ── 长尾场景类（long_tail）────────────────────────
+  - text: ""
+    type: long_tail
+    source: user_upload
+    added_at: ""
+    used: false
+    used_in: ""
+
+# ── 元数据 ──────────────────────────────────────────
+meta:
+  last_updated: null          # 最后更新时间（自动维护）
+  last_realtime_fetch: null   # 最后一次从平台采集时间（自动维护）
+  total_count: 0              # 总问题数（自动维护）
+  used_count: 0               # 已使用问题数（自动维护）
