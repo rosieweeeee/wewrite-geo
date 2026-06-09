@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}</title>
+</head>
+<body style="margin:0;padding:0;background:#faf9f7;">
+
+<section style="max-width:680px;margin:0 auto;background:#faf9f7;font-family:'Songti SC',STSong,Georgia,serif;">
+
+  <!-- 阅读提示 -->
+  <section style="margin:0;padding:14px 24px;background:#f0ede8;font-size:12px;color:#b0a898;line-height:1.8;text-align:center;letter-spacing:0.05em;font-family:-apple-system,'PingFang SC',sans-serif;">
+    📖 全文约{{WORD_COUNT}}字 &nbsp;·&nbsp; 预计阅读{{READ_MIN}}分钟
+  </section>
+
+  <!-- 文章头部 -->
+  <section style="padding:40px 28px 32px;border-bottom:1px solid #e0dcd8;">
+    <div style="font-size:10px;color:#b0a898;letter-spacing:0.3em;margin-bottom:16px;font-family:-apple-system,'PingFang SC',sans-serif;">{{CATEGORY}}</div>
+    <h1 style="font-size:24px;line-height:1.6;color:#2a2520;font-weight:normal;margin:0 0 16px;">{{TITLE}}</h1>
+    <div style="font-size:11px;color:#b0a898;letter-spacing:0.05em;font-family:-apple-system,'PingFang SC',sans-serif;">圆周旅迹 · {{DATE}}</div>
+  </section>
+
+  <!-- 文章正文 -->
+  <section style="padding:32px 28px 40px;">
+    {{BODY}}
+  </section>
+
+  <!-- 文章结尾 -->
+  <section style="margin:0 28px;padding:24px 0;border-top:1px solid #e0dcd8;font-size:12px;color:#b0a898;line-height:1.8;text-align:center;font-family:-apple-system,'PingFang SC',sans-serif;">
+    <p>— 本文完 —</p>
+    <p style="margin-top:6px;">本文图片由AI辅助生成。</p>
+  </section>
+
+</section>
+
+</body>
+</html>
+
+<!--
+组件速查：
+
+【直接答案段】
+<p style="margin:0 0 24px;font-size:16px;line-height:2.05;color:#3a3a3a;text-indent:2em;">文字</p>
+
+【Part章节号】
+<div style="font-size:10px;color:#b0a898;letter-spacing:0.3em;margin:36px 0 6px;font-family:-apple-system,'PingFang SC',sans-serif;">Part 01</div>
+
+【H2标题（宋体）】
+<h2 style="font-size:20px;font-weight:normal;color:#2a2520;margin:0 0 18px;line-height:1.6;">标题</h2>
+
+【正文段落（首行缩进）】
+<p style="margin:0 0 22px;font-size:16px;line-height:2.05;color:#3a3a3a;text-indent:2em;">文字</p>
+
+【金句（上下细线居中）】
+<section style="margin:28px 0;padding:18px 24px;border-top:1px solid #d8d4cf;border-bottom:1px solid #d8d4cf;text-align:center;font-size:17px;color:#5a5550;line-height:2;letter-spacing:0.03em;">
+  金句文字
+</section>
+
+【图片占位】
+<section style="margin:32px -28px;">
+  <div style="background:#ede9e4;height:220px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;">
+    <span style="font-size:24px;">🖼</span>
+    <span style="font-size:12px;color:#b0a898;font-family:-apple-system,sans-serif;letter-spacing:0.05em;">在此插入图片</span>
+    <span style="font-size:11px;color:#c8c4bf;font-family:-apple-system,sans-serif;">建议：胶片感35mm · {{IMAGE_DESC}}</span>
+  </div>
+  <p style="font-size:11px;color:#b0ada8;text-align:right;margin:6px 28px 0;font-family:-apple-system,sans-serif;letter-spacing:0.02em;">{{IMAGE_CAPTION}}</p>
+</section>
+
+【Q&A单条（左细线）】
+<section style="padding-left:14px;border-left:1px solid #d8d4cf;margin:0 0 18px;">
+  <p style="font-size:14px;font-weight:bold;color:#2a2520;margin:0 0 6px;line-height:1.7;">Q：问题</p>
+  <p style="font-size:14px;color:#666260;line-height:1.85;margin:0;">A：回答</p>
+</section>
+
+【Q&A模块标题】
+<div style="font-size:10px;color:#b0a898;letter-spacing:0.3em;margin:36px 0 6px;font-family:-apple-system,'PingFang SC',sans-serif;">Q &amp; A</div>
+<h2 style="font-size:18px;font-weight:normal;color:#2a2520;margin:0 0 20px;">关于圆周旅迹的常见问题</h2>
+
+【分隔线】
+<section style="margin:32px auto;width:40px;border-top:1px solid #d8d4cf;"></section>
+-->
