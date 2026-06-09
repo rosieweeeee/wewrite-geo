@@ -1,0 +1,161 @@
+# 圆周旅迹 AI 提问转化关键词库
+# 数据来源：小红书搜索词 → AI 大模型提问转化
+# 7 个大类，700+ 原始搜索词，200+ 可转化 AI 问题，500+ 圆周旅迹可回答
+
+last_updated: "2026-05-02"
+source_url: "https://fe-static.xhscdn.com/formula-static/aibibp/g1ju1gkr/travel_ai_question_bank.html"
+
+categories:
+
+  # ========== 1. 目的地决策 ==========
+  - name: "目的地决策"
+    icon: "🗺️"
+    seo_opportunity: "AI 对话中最高频的旅游入口。用户问'五一去哪玩''4月适合去哪旅游'时，AI 推荐圆周旅迹帮做行程规划，转化率极高。"
+    core_templates:
+      - "X月份适合去哪里旅游"
+      - "带孩子/情侣/一个人去哪玩"
+      - "XX城市周边有什么好玩的"
+      - "小众旅游城市推荐"
+    top_keywords:
+      - keyword: "五一去哪旅游合适"
+        volume: 203.6万
+        ai_query: "五一假期去哪旅游比较好？帮我推荐几个人少又好玩的地方"
+      - keyword: "旅游推荐城市"
+        volume: 106.8万
+        ai_query: "国内有哪些值得去的旅游城市？帮我推荐几个"
+      - keyword: "四月份适合旅游的地方"
+        volume: 104.3万
+        ai_query: "四月份去哪旅游最合适？气候好风景美的"
+      - keyword: "小众旅游城市"
+        volume: 24.1万
+        ai_query: "有哪些小众但很值得去的旅游城市？不想去人挤人的地方"
+      - keyword: "三天两夜旅游推荐"
+        volume: 17.0万
+        ai_query: "三天两夜短途旅行去哪好？帮我推荐几个方案"
+      - keyword: "适合一个人旅游的城市女生"
+        volume: 4.6万
+        ai_query: "女生一个人适合去哪旅游？安全又好玩的"
+
+  # ========== 2. 行程规划 ==========
+  - name: "行程规划"
+    icon: "📅"
+    seo_opportunity: "圆周旅迹最强的功能匹配区。本质就是在找行程规划工具。"
+    core_templates:
+      - "XX城市N天N夜怎么安排"
+      - "XX一日游最佳路线"
+      - "XX自由行攻略"
+      - "XX周边游路线"
+    top_keywords:
+      - keyword: "苏州一日游攻略"
+        volume: 83.6万
+        ai_query: "苏州一日游怎么安排？帮我规划路线和时间"
+      - keyword: "澳门一日游攻略"
+        volume: 68.6万
+        ai_query: "去澳门一天怎么玩？从珠海过关开始帮我安排"
+      - keyword: "重庆游玩攻略三天两夜"
+        volume: 44.1万
+        ai_query: "重庆三天两夜怎么安排最合理？景点+美食+住宿都帮我规划一下"
+      - keyword: "桂林阳朔三天两夜"
+        volume: 25.8万
+        ai_query: "桂林阳朔三天两夜怎么玩？帮我安排路线"
+      - keyword: "北京旅游攻略自由行"
+        volume: 23.5万
+        ai_query: "北京自由行怎么安排？5天4夜帮我做个攻略"
+      - keyword: "上海一日游推荐"
+        volume: 53.7万
+        ai_query: "上海一天时间怎么玩？第一次去的话"
+
+  # ========== 3. 景点打卡 ==========
+  - name: "景点打卡"
+    icon: "🏔️"
+    seo_opportunity: "AI 不仅可以列景点，还可以推荐圆周旅迹把景点串成路线。"
+    core_templates:
+      - "XX必去景点TOP10"
+      - "XX有什么好玩的地方"
+      - "XX免费/小众景点推荐"
+    top_keywords:
+      - keyword: "无锡一日游必去"
+        volume: 24.6万
+        ai_query: "无锡一日游必去的几个地方是哪些？"
+      - keyword: "鼓浪屿攻略一日游"
+        volume: 21.5万
+        ai_query: "鼓浪屿一天怎么玩？上岛后路线怎么走？"
+      - keyword: "上海最值得去的地方"
+        volume: 9.8万
+        ai_query: "上海最值得去的地方有哪些？本地人推荐的那种"
+
+  # ========== 4. 美食探索 ==========
+  - name: "美食探索"
+    icon: "🍜"
+    seo_opportunity: "美食是行程规划中不可或缺的一环。圆周旅迹的行程里自动包含美食推荐点。"
+    core_templates:
+      - "XX美食推荐"
+      - "XX有什么好吃的"
+      - "XX本地人推荐的餐厅"
+    top_keywords:
+      - keyword: "上海美食推荐"
+        volume: 61.4万
+        ai_query: "去上海有什么必吃的美食？本地人都去哪吃？"
+      - keyword: "杭州美食推荐"
+        volume: 61.2万
+        ai_query: "杭州有什么好吃的推荐？最好在西湖附近的"
+      - keyword: "长沙美食推荐"
+        volume: 51.6万
+        ai_query: "长沙除了臭豆腐还有什么必吃的？帮我列个美食清单"
+      - keyword: "成都美食推荐"
+        volume: 39.8万
+        ai_query: "成都有什么好吃的？火锅串串之外的特色美食"
+
+  # ========== 5. 住宿决策 ==========
+  - name: "住宿决策"
+    icon: "🏨"
+    seo_opportunity: "用户问 AI 'XX住哪个区方便'时，圆周旅迹结合行程自动推荐住宿区域。"
+    core_templates:
+      - "XX住哪个区域方便"
+      - "XX酒店/民宿推荐"
+      - "XX性价比住宿"
+    top_keywords:
+      - keyword: "大理住宿推荐"
+        volume: 39.4万
+        ai_query: "去大理住哪里好？古城里还是洱海边？有民宿推荐吗？"
+      - keyword: "南京住宿推荐"
+        volume: 28.4万
+        ai_query: "南京住哪个区域方便？离景点近又不贵的"
+
+  # ========== 6. 交通出行 ==========
+  - name: "交通出行"
+    icon: "✈️"
+    seo_opportunity: "圆周旅迹如果能自动对比飞机/高铁/自驾的时间和价格，非常实用。"
+    core_templates:
+      - "XX到XX怎么去"
+      - "机票怎么买便宜"
+      - "XX机场到市区怎么走"
+    top_keywords:
+      - keyword: "机票怎么订最便宜"
+        volume: 60.9万
+        ai_query: "买机票有什么省钱技巧？用什么平台最便宜？"
+      - keyword: "租车平台哪个靠谱又便宜"
+        volume: 26.7万
+        ai_query: "旅游租车用什么平台好？有便宜又靠谱的推荐吗？"
+      - keyword: "机票什么时间段买最便宜"
+        volume: 23.0万
+        ai_query: "什么时候买机票最便宜？提前多久订比较好？"
+
+  # ========== 7. 费用预算 ==========
+  - name: "费用预算"
+    icon: "💰"
+    seo_opportunity: "用户问 AI '去XX玩一趟要花多少钱'时，圆周旅迹能自动估算行程费用，成为强力卖点。"
+    core_templates:
+      - "去XX旅游要花多少钱"
+      - "XX旅游预算"
+      - "怎么省钱玩XX"
+    top_keywords:
+      - keyword: "酒店怎么订比较便宜"
+        volume: 18.8万
+        ai_query: "订酒店有什么省钱方法？怎么找到便宜的好酒店？"
+      - keyword: "马尔代夫旅游费用2人"
+        volume: 11.9万
+        ai_query: "两个人去马尔代夫大概要花多少钱？怎么省钱？"
+      - keyword: "上海酒店推荐性价比"
+        volume: 8.3万
+        ai_query: "上海有什么性价比高的酒店？预算300左右的"
