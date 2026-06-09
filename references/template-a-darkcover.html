@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}</title>
+</head>
+<body style="margin:0;padding:0;background:#fff;">
+
+<section style="max-width:680px;margin:0 auto;background:#fff;font-family:-apple-system,'PingFang SC','Helvetica Neue',sans-serif;">
+
+  <!-- 深色封面头部 -->
+  <section style="background:#1a1a1a;padding:36px 28px 32px;">
+    <!-- 标签 -->
+    <div style="margin-bottom:16px;">
+      <span style="display:inline-block;background:#c4602a;color:#fff;font-size:10px;letter-spacing:0.15em;padding:4px 12px;border-radius:2px;">{{CATEGORY}}</span>
+    </div>
+    <!-- 阅读提示 -->
+    <div style="font-size:11px;color:#666;margin-bottom:16px;letter-spacing:0.05em;">
+      📖 全文约{{WORD_COUNT}}字 &nbsp;·&nbsp; 预计阅读{{READ_MIN}}分钟
+    </div>
+    <!-- 标题 -->
+    <h1 style="font-size:24px;line-height:1.6;color:#ffffff;font-weight:bold;margin:0 0 16px;letter-spacing:0.01em;">{{TITLE}}</h1>
+    <!-- 发布信息 -->
+    <div style="font-size:11px;color:#666;letter-spacing:0.05em;">圆周旅迹 · {{DATE}}</div>
+  </section>
+
+  <!-- 文章正文 -->
+  <section style="padding:32px 28px 40px;">
+    {{BODY}}
+  </section>
+
+  <!-- 文章结尾 -->
+  <section style="margin:0 28px;padding:24px 0;border-top:1px solid #e0e0e0;font-size:12px;color:#999;line-height:1.8;text-align:center;">
+    <p>— 本文完 —</p>
+    <p style="margin-top:6px;">本文图片由AI辅助生成。</p>
+  </section>
+
+</section>
+
+</body>
+</html>
+
+<!--
+组件速查：
+
+【直接答案段】
+<p style="margin:0 0 24px;font-size:17px;line-height:1.9;color:#2d2d2d;">文字</p>
+
+【H2标题（橙棕左竖线）】
+<h2 style="margin:32px 0 14px;padding-left:14px;border-left:3px solid #c4602a;font-size:19px;font-weight:bold;color:#1a1a1a;line-height:1.5;">标题</h2>
+
+【正文段落】
+<p style="margin:0 0 24px;font-size:17px;line-height:1.9;color:#2d2d2d;">文字</p>
+
+【引用块（橙棕背景）】
+<section style="margin:24px 0;padding:16px 20px;background:#fdf8f5;border-left:3px solid #c4602a;font-size:16px;line-height:1.85;color:#444;">
+  引用文字
+</section>
+
+【图片占位】
+<section style="margin:28px -4px;">
+  <div style="background:#f0ede8;height:220px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;border-radius:4px;">
+    <span style="font-size:24px;">🖼</span>
+    <span style="font-size:12px;color:#b0a898;letter-spacing:0.05em;">在此插入图片</span>
+    <span style="font-size:11px;color:#c8c4bf;">建议：胶片感35mm · {{IMAGE_DESC}}</span>
+  </div>
+  <p style="font-size:12px;color:#999;text-align:center;margin-top:8px;">{{IMAGE_CAPTION}}</p>
+</section>
+
+【Q&A单条（橙棕左线+浅背景）】
+<section style="margin:0 0 16px;padding:12px 16px;background:#fdf8f5;border-left:3px solid #c4602a;border-radius:0 4px 4px 0;">
+  <p style="font-size:14px;font-weight:bold;color:#c4602a;margin:0 0 6px;line-height:1.7;">Q：问题</p>
+  <p style="font-size:14px;color:#555;line-height:1.85;margin:0;">A：回答</p>
+</section>
+
+【Q&A模块标题（橙棕左线）】
+<h2 style="margin:32px 0 20px;padding-left:14px;border-left:3px solid #c4602a;font-size:19px;font-weight:bold;color:#1a1a1a;line-height:1.5;">关于圆周旅迹的常见问题</h2>
+
+【分隔线】
+<section style="margin:32px 0;border:none;border-top:1px solid #e0e0e0;"></section>
+
+【数据强调（橙色数字）】
+<strong style="color:#c4602a;">数字或关键词</strong>
+-->
